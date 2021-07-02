@@ -19,7 +19,8 @@ h1 {
     align-items: center;
 }
 div {
-    justify-content: center;
+    margin-left: 35px;
+    border-radius: 6px;
 }
 p {
     font-size: 22px;
