@@ -1,0 +1,28 @@
+body {
+    background-color:tan;
+}
+ #button {
+        margin-right:40%;
+        margin-left: 45%;
+        margin-top: 2%;
+        margin-bottom: 1%;
+        width: 8em;
+}
+
+h1 {
+    background-color:rgb(204, 127, 75);
+    margin:2em;
+    border-radius: 6px;
+    margin-top: 50px;
+    margin-left: 550px;
+    margin-right: 550px;
+    align-items: center;
+}
+div {
+    margin-left: 35px;
+    border-radius: 6px;
+}
+p {
+    font-size: 22px;
+    font-family:monospace;
+}
