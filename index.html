@@ -8,27 +8,37 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <h1>BRAINY BUNNY</h1>
-<div>
-    <input id=1 type="text" placeholder="adjective" required>
-    <input id=2 type="text" placeholder="adjective" required>
-    <input id=3 type="text" placeholder="type of bird" required>
-    <input id=4 type="text" placeholder="room in a house" required>
-    <input id=5 type="text" placeholder="verb-past tense" required>
-    <input id=6 type="text" placeholder="verb" required>
-    <input id=7 type="text" placeholder="relative's name" required>
-    <input id=8 type="text" placeholder="noun" required>
-    <input id=9 type="text" placeholder="a liquid" required>
-    <input id=10 type="text" placeholder="verb ending in -ing" required>
-    <input id=11 type="text" placeholder="part of the body-plural" required>
-    <input id=12 type="text" placeholder="plural noun" required>
-    <input id=13 type="text" placeholder="verb ending in -ing" required>
-    <input id=14 type="text" placeholder="noun" required>
+    <p>Enter the next information:</p>
+<div id="inputPanel">
+    <input id=adj1 type="text" placeholder="an adjective" required>
+    <input id=adj2 type="text" placeholder="an adjective" required>
+    <input id=bird3 type="text" placeholder="a type of bird" required>
+    <input id=house4 type="text" placeholder="a room in a house" required>
+    <input id=verb5 type="text" placeholder="a verb-past tense" required>
+    <input id=verb6 type="text" placeholder="a verb" required>
+    <input id=name7 type="text" placeholder="a relative's name" required>
+    <input id=noun8 type="text" placeholder="a noun" required>
+    <input id=liq9 type="text" placeholder="a liquid" required>
+    <input id=verb10 type="text" placeholder="a verb ending in -ing" required>
+    <input id=part11 type="text" placeholder="a part of the body-plural" required>
+    <input id=noun12 type="text" placeholder="a plural noun" required>
+    <input id=verb13 type="text" placeholder="a verb ending in -ing" required>
+    <input id=noun14 type="text" placeholder="a noun" required>
 </div>
-    <button type="button" id="button" >Read the story</button>
-    <p>
-        It was a (blank), cold November day. I woke up to the (blank) smell of (blank) roasting in the (blank) downstairs. I (blank) down the stairs to see if I could help (blank) the dinner. My mom said, "See if (blank) needs a fresh (blank). So I carrieda tray of glasses full of (blank) into the (blank) room. When I got there, I couldn't believe my (blank)! There were (blank) (blank) on the (blank)!.
-    </p>
-    
+
+<br><br>
+ <center>
+     <button type="button" id="submit" onclick=" writeStory()" >Read the story</button>
+</center>
+ <br>
+
+    <div id="outputPanel" style="padding-top: 200px; margin-right: 80px; margin-left: 80px; background-color: rgb(233, 220, 148);">
+
+    </div>
+
+
+<script src="./madlibs.js"></script>
 </body>
 </html>
